@@ -1,0 +1,66 @@
+body {
+	background-color: purple ;
+}
+
+.container{
+	padding: 0;
+	margin: auto;
+	align-self: center;
+	max-width: inherit;
+}
+
+.navbar{
+	padding:0;
+}
+
+#header-nav {
+	background-color: white;
+
+}
+
+.navbar-brand {
+	float:left;
+
+}
+
+.navbar-brand a {
+	text-decoration:none;
+}
+
+.navbar-toggler{
+	border: 1px solid white;
+
+}
+
+.navbar-nav .nav-link {
+    padding-left: 5px;
+    }
+
+.row{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.jumbotron{
+	padding:1px;
+}
+
+.sectionheading{
+	background-color: black;
+	color: white;
+}
+
+@media (min-width: 576px){
+
+	.navbar-toggler{
+		display: none;
+		margin-right: :5px;
+
+	}
+
+	.row{
+		width: 95%;
+	}
+
+}
